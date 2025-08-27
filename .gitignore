@@ -1,0 +1,22 @@
+# Ignore build output
+/target/
+
+# Ignore IDE specific files
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Keep only source files and config
+!src/
+!pom.xml
